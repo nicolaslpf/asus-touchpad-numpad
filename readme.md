@@ -54,3 +54,7 @@ Hold the top-right corner of the touchpad for 2 seconds to toggle between:
 - 🔢 Numpad Mode
 
 Desktop notifications and short sound feedback will indicate mode changes!.
+
+# Observations: 
+
+The script notifications are defined in spanish because I speak spanish, but you can just edit the .py file and translate them into english or your own language. 
