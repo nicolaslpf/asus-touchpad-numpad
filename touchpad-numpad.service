@@ -1,0 +1,12 @@
+[Unit]
+Description=Touchpad Numpad (User Service)
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/zenuba/.local/bin/touchpad_numpad.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
