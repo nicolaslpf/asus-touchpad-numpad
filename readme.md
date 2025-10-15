@@ -47,7 +47,7 @@ sudo systemctl start touchpad-numpad.service
 
 Once active, the service runs automatically in the background.
 
-Hold the top-right corner of the touchpad for 2 seconds to toggle between:
+Hold the top-right corner of the touchpad for 1 second (or edit the constant -HOLD_TIME- on the .py file to your preference ) to toggle between:
 
 - 🖱️ Touchpad Mode
 
